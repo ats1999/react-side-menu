@@ -1,0 +1,19 @@
+#close-menu{
+    position: relative;
+    top: 5px;
+    right: 5px;
+    background-color: #ff0202; /* Green */
+    border: none;
+    color: rgb(241, 245, 9);
+    padding: 7px 7px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20%;
+    font-size: 16px;
+    transition: font-size 0.5s;
+}
+#close-menu:hover{
+    font-size: 20px;
+}

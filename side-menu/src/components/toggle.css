@@ -1,0 +1,24 @@
+#toggle-menu{
+    position: fixed;
+    top: 30px;
+    left: 10px;
+    display: none;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 17px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20%;
+    font-size: 16px;
+    transition: font-size 0.5s;
+}
+#toggle-menu:hover{
+    font-size: 20px;
+}
+@media screen and (max-width: 800px){
+    #toggle-menu{
+        display: block;
+    }
+}
